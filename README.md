@@ -30,13 +30,9 @@ Then open `dist/steam_insights.html` in any modern browser.
 
 ## Repository layout
 
-```
-├── build.py             # cleaning pipeline + HTML builder
+```           
 ├── template.html        # dashboard UI (CSS + JS); __DATA__ is replaced at build time
 ├── data/steam.csv       # source dataset (add it yourself, see below)
-└── dist/
-    ├── steam_insights.html   # the dashboard (generated)
-    └── steam_clean.csv       # cleaned dataset (generated)
 ```
 
 ## Dataset
